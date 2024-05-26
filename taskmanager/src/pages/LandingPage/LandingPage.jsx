@@ -4,7 +4,7 @@ import "./LandingPage.css";
 function LandingPage() {
     return (
         <div>
-            <h1>Shibal Gaesakki Task Manager</h1>
+            <h1>Shibal Task Manager</h1>
             <button>Login</button>
             <button>Create Account</button>
         </div>
