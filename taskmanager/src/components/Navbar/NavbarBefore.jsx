@@ -1,15 +1,23 @@
 import "./NavbarBefore.css";
 
-const NavbarBefore = () => {
+export default function NavbarBefore() {
   return (
-    <nav>
-      <div>
-        <h1>Shibal To-do</h1>
-        <h2>About</h2>
-        <h2>Contact</h2>
-      </div>
+    <nav className="navbar">
+      <a className="site-title">Shibal To-do</a>
+      <ul>
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="">Contact</a>
+        </li>
+        {/*{<li>
+            <a href="/login">Login</a>
+          </li>
+          <li>
+            <a href="/createaccount">Register</a>
+          </li>}*/}
+      </ul>
     </nav>
   );
-};
-
-export default NavbarBefore;
+}
