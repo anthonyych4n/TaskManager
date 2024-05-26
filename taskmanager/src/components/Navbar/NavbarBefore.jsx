@@ -3,9 +3,7 @@ import "./NavbarBefore.css";
 function NavbarBefore() {
   return (
     <nav className="navbar">
-      <a href="/" className="site-title">
-        Shibal To-do
-      </a>
+      <h1 className="site-title">Shibal To-do</h1>
       <ul>
         <li>
           <a href="/about">About</a>
