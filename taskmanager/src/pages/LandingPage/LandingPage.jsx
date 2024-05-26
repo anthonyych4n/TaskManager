@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 // importing components from react-router-dom package
 import { Navigate } from "react-router-dom";
 import { useState } from "react";
-import Nav from "../../components/Navbar/NavbarBefore";
+import Navbar from "../../components/Navbar/NavbarBefore";
 
 function LandingPage() {
   const [goToLogin, setGoToLogin] = useState(false);
@@ -17,8 +17,8 @@ function LandingPage() {
     return <Navigate to="/createaccount" />;
   }
   return (
-    <div>
-      <Nav />
+    <>
+      <Navbar />
       <div className="body">
         <div className="buttons">
           <button
@@ -41,9 +41,8 @@ function LandingPage() {
           </button>
         </div>
       </div>
-
       <Footer />
-    </div>
+    </>
   );
 }
 

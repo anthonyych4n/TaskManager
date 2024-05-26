@@ -3,13 +3,13 @@ import "./NavbarBefore.css";
 function NavbarBefore() {
   return (
     <nav className="navbar">
-      <h1 className="site-title">Shibal To-do</h1>
+      <a className="site-title">Shibal To-do</a>
       <ul>
         <li>
           <a href="/about">About</a>
         </li>
         <li>
-          <a href="">Contact</a>
+          <a href="/contact">Contact</a>
         </li>
         {/*{<li>
             <a href="/login">Login</a>
