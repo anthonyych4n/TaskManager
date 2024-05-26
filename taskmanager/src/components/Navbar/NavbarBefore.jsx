@@ -1,9 +1,11 @@
 import "./NavbarBefore.css";
 
-export default function NavbarBefore() {
+function NavbarBefore() {
   return (
     <nav className="navbar">
-      <a className="site-title">Shibal To-do</a>
+      <a href="/" className="site-title">
+        Shibal To-do
+      </a>
       <ul>
         <li>
           <a href="/about">About</a>
@@ -21,3 +23,5 @@ export default function NavbarBefore() {
     </nav>
   );
 }
+
+export default NavbarBefore;
