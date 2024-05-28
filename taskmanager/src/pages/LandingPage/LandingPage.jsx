@@ -18,7 +18,9 @@ function LandingPage() {
   }
   return (
     <>
-      <Navbar />
+      <nav>
+        <Navbar />
+      </nav>
       <div className="body">
         <div className="buttons">
           <button
