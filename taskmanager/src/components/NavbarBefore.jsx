@@ -1,9 +1,9 @@
-import "../../App.css";
+import "../App.css";
 
 function NavbarBefore() {
   return (
-    <nav className="fixed top-0 h-screen w-16">
-      <a className="text-red-800">Shibal To-do</a>
+    <nav className="">
+      <a className="text-red-200">Shibal To-do</a>
       <ul>
         <li>
           <a href="/about">About</a>

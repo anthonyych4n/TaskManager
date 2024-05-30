@@ -1,9 +1,9 @@
-import "../../App.css";
-import Footer from "../../components/Footer/Footer";
+import "../App.css";
+import Footer from "../components/Footer";
 // importing components from react-router-dom package
 import { Navigate } from "react-router-dom";
 import { useState } from "react";
-import Navbar from "../../components/Navbar/NavbarBefore";
+import Navbar from "../components/NavbarBefore";
 
 function LandingPage() {
   const [goToLogin, setGoToLogin] = useState(false);
@@ -18,7 +18,7 @@ function LandingPage() {
   }
   return (
     <>
-      <nav className="text">
+      <nav>
         <Navbar />
       </nav>
       <div className="body">
