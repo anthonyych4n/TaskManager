@@ -1,4 +1,4 @@
-import "./NavbarBefore.css";
+import "../../index.css";
 
 function NavbarBefore() {
   return (
