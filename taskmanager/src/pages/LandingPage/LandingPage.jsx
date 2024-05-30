@@ -1,4 +1,4 @@
-import "./LandingPage.css";
+import "../index.css";
 import Footer from "../../components/Footer/Footer";
 // importing components from react-router-dom package
 import { Navigate } from "react-router-dom";
