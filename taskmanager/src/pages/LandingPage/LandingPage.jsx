@@ -1,4 +1,4 @@
-import "../../index.css";
+import "../../App.css";
 import Footer from "../../components/Footer/Footer";
 // importing components from react-router-dom package
 import { Navigate } from "react-router-dom";
@@ -18,7 +18,7 @@ function LandingPage() {
   }
   return (
     <>
-      <nav>
+      <nav className="text">
         <Navbar />
       </nav>
       <div className="body">
