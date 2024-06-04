@@ -1,24 +1,28 @@
-import "../App.css";
+import "../index.css";
 
 function NavbarBefore() {
   return (
-    <nav className="">
-      <a className="text-red-200">Shibal To-do</a>
-      <ul>
-        <li>
-          <a href="/about">About</a>
-        </li>
-        <li>
-          <a href="/contact">Contact</a>
-        </li>
-        {/*{<li>
-            <a href="/login">Login</a>
-          </li>
-          <li>
-            <a href="/createaccount">Register</a>
-          </li>}*/}
-      </ul>
-    </nav>
+    <header className="bg-white">
+      <nav className="">
+        <div className="">
+          <a className="text-black-300 w-100 ">Shibal To-do</a>
+        </div>
+        <div className="">
+          <ul className="flex items-center gap-4">
+            <li>
+              <a href="/about" className="hover:text-gray-500">
+                About
+              </a>
+            </li>
+            <li>
+              <a href="/contact" className="hover:text-gray-500">
+                Contact
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
   );
 }
 

@@ -17,14 +17,14 @@ function LandingPage() {
     return <Navigate to="/createaccount" />;
   }
   return (
-    <>
-      <nav>
+    <body className="font-[Poppins] bg-gradient-to-tr from-[#fbc2eb] to-[#a6c1ee] h-screen">
+      <div className="">
         <Navbar />
-      </nav>
-      <div className="body">
-        <div className="buttons">
+      </div>
+      <div className="">
+        <div className="">
           <button
-            className="login-button"
+            className=""
             onClick={() => {
               setGoToLogin(true);
             }}
@@ -33,7 +33,7 @@ function LandingPage() {
             Login
           </button>
           <button
-            className="create-account-button"
+            className=""
             onClick={() => {
               setGoToCreateAccount(true);
             }}
@@ -44,7 +44,7 @@ function LandingPage() {
         </div>
       </div>
       <Footer />
-    </>
+    </body>
   );
 }
 
