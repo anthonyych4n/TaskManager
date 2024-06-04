@@ -1,13 +1,20 @@
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Sidebar from "../components/Sidebar";
 const Home = () => {
   return (
-    <div>
-      <Header />
-      <h1>Welcome to the Task Manager</h1>
-      {/* Add your content here */}
-      <Footer />
-    </div>
+    <body>
+      <div>
+        <div>
+          <Sidebar />
+        </div>
+        <div>
+          <h1>Welcome to the Task Manager</h1>
+          {/* Add your content here */}
+        </div>
+
+        <Footer />
+      </div>
+    </body>
   );
 };
 
