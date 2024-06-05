@@ -10,7 +10,7 @@ import User from "../../public/user.svg";
 
 const Sidebar = () => {
   return (
-    <nav className="bg-gray-200 text-black h-screen w-64 drop-shadow-lg text-base">
+    <nav className="bg-gray-50 text-black h-screen w-64 drop-shadow-lg text-base">
       <div className="flex p-4 justify-between">
         <div className="flex justify-start space-x-2 items-center">
           <img src={User} alt="" className="h-5 w-5" />{" "}
