@@ -1,12 +1,12 @@
 const LogIn = () => {
   return (
-    <div className="wrapper">
-      <form action="">
-        <h1>Login</h1>
-        <div className="input-box">
+    <div className="">
+      <form className="form-container w-full md:w-[400px] flex flex-col items-center justify-center gap-y-8 bg-white px-10 pt-14 pb-14">
+        <h1 className="text-xl">Login</h1>
+        <div className="">
           <input type="text" placeholder="Username" />
         </div>
-        <div className="input-box">
+        <div className="">
           <input type="password" placeholder="Password" />
         </div>
         <div className="forget">

@@ -1,6 +1,27 @@
 import "../index.css";
 
 function Navbar() {
+  // Use Mapping for navigation links
+  /*
+  function NumberList(props) {
+  const numbers = props.numbers;
+  return (
+    <ul>
+      {numbers.map((number) =>
+        <ListItem key={number.toString()}
+                  value={number} />
+      )}
+    </ul>
+  );
+}
+  */
+  /*const navLinks = {
+    about: "/about",
+    contact: "/contact",
+    login: "/login",
+    startNow: "/createaccount",
+  };*/
+
   return (
     <header className="bg-white rounded-b-md">
       <nav className="flex justify-between items-center w-[80%] mx-auto py-5">

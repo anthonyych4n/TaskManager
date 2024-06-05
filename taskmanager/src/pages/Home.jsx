@@ -1,4 +1,5 @@
 import Sidebar from "../components/Sidebar";
+import AddTask from "../components/AddTask";
 const Home = () => {
   return (
     <body>
@@ -7,8 +8,7 @@ const Home = () => {
           <Sidebar />
         </div>
         <div>
-          <h1>I love big black penises</h1>
-          {/* Add your content here */}
+          <AddTask />
         </div>
       </div>
     </body>
