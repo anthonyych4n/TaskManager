@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { PropTypes } from "prop-types";
 
-const AddTask = ({ addTask }) => {
+function AddTask({ addTask }) {
   const [task, setTask] = useState("");
 
   const handleInputChange = (e) => {
@@ -27,7 +27,7 @@ const AddTask = ({ addTask }) => {
       <button type="submit">Add Task</button>
     </form>
   );
-};
+}
 
 AddTask.propTypes = {
   addTask: PropTypes.func.isRequired,
