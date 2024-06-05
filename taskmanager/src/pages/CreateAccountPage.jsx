@@ -1,4 +1,6 @@
 import { useState } from "react";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 export function CreateAccountPage() {
   const [username, setUsername] = useState("");
@@ -24,26 +26,42 @@ export function CreateAccountPage() {
   };
 
   return (
-    <div>
-      <h1>Create Account</h1>
-      <form onSubmit={handleSubmit}>
-        <label>
-          Username:
-          <input type="text" value={username} onChange={handleUsernameChange} />
-        </label>
-        <br />
-        <label>
-          Password:
-          <input
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-          />
-        </label>
-        <br />
-        <button type="submit">Create Account</button>
-      </form>
-    </div>
+    <body className="font-[Poppins] bg-gradient-to-tr from-[#fbc2eb] to-[#a6c1ee] h-[100%]">
+      <div className="">
+        <div className="">
+          <Navbar />
+        </div>
+        <div className="flex items-center justify-center h-screen">
+          <div className="bg-white items-center rounded-xl p-10">
+            <h1>Create Account</h1>
+            <form onSubmit={handleSubmit}>
+              <label>
+                Username:
+                <input
+                  type="text"
+                  value={username}
+                  onChange={handleUsernameChange}
+                />
+              </label>
+              <br />
+              <label>
+                Password:
+                <input
+                  type="password"
+                  value={password}
+                  onChange={handlePasswordChange}
+                />
+              </label>
+              <br />
+              <button type="submit">Create Account</button>
+            </form>
+            <div className="flex items-center justify-center pt-5"></div>
+          </div>
+        </div>
+
+        <Footer />
+      </div>
+    </body>
   );
 }
 
