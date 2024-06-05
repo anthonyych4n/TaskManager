@@ -1,18 +1,15 @@
-import Footer from "../components/Footer";
 import Sidebar from "../components/Sidebar";
 const Home = () => {
   return (
     <body>
-      <div>
+      <div className="flex">
         <div>
           <Sidebar />
         </div>
         <div>
-          <h1>Welcome to the Task Manager</h1>
+          <h1>I love big black penises</h1>
           {/* Add your content here */}
         </div>
-
-        <Footer />
       </div>
     </body>
   );

@@ -18,7 +18,7 @@ function LandingPage() {
           <Navbar />
         </div>
         <div className="flex items-center justify-center h-screen">
-          <div className="bg-white items-center rounded-md p-10">
+          <div className="bg-white items-center rounded-xl p-10">
             <h1 className="flex items-center  justify-center text-lg">
               Oragnize your life and work, finally.{" "}
             </h1>
