@@ -1,19 +1,19 @@
-import Inbox from "../../public/inbox.svg";
-import Search from "../../public/search.svg";
-import Calendar from "../../public/calendar.svg";
-import Trash from "../../public/trash-2.svg";
-import Today from "../../public/sun.svg";
-import Add from "../../public/plus-circle.svg";
-import Minimize from "../../public/minimize-2.svg";
-import Bell from "../../public/bell.svg";
-import User from "../../public/user.svg";
+import Inbox from "/inbox.svg";
+import Search from "/search.svg";
+import Calendar from "/calendar.svg";
+import Trash from "/trash-2.svg";
+import Today from "/sun.svg";
+import Add from "/add.png";
+import Minimize from "/minimize-2.svg";
+import Bell from "/bell.svg";
+import User from "/user.svg";
 
 const Sidebar = () => {
   return (
     <nav className="bg-gray-50 text-black h-screen w-64 drop-shadow-lg text-base">
       <div className="flex p-4 justify-between">
         <div className="flex justify-start space-x-2 items-center">
-          <img src={User} alt="" className="h-5 w-5" />{" "}
+          <img src={User} alt="" className="h-5 w-5 text-gray-100" />{" "}
           {/* Profile Image (Add Later))*/}
           <a href="">Burton Jong</a>
         </div>
@@ -24,26 +24,26 @@ const Sidebar = () => {
         </div>
       </div>
 
-      <div className="flex px-4  ">
+      <div className="flex px-4 w-64 py-1">
         <button className="flex space-x-2 items-center">
           <img src={Add} alt="" className="h-5 w-5" />
           <a href="">Add Task</a>
         </button>
       </div>
 
-      <div className="flex text-justify">
-        <ul className="flex px-4 py-2 flex-col ">
+      <div className="flex">
+        <ul className="flex px-4 py-2 flex-col w-64">
           <li className="py-1.5 flex space-x-2 text-justify items-center">
             <img src={Search} alt="Search" className="h-5 w-5" />
             <a href="">Search</a>
           </li>
 
-          <li className="py-1.5 flex space-x-2 text-justify items-center">
+          <li className="py-1.5 flex space-x-2 text-justify items-center ">
             <img src={Inbox} alt="Inbox" className="h-5 w-5" />
             <a href="/home/inbox">Inbox</a>
           </li>
 
-          <li className="py-1.5 flex space-x-2 text-justify items-center">
+          <li className="py-1.5 flex space-x-2 text-justify items-center ">
             <img src={Today} alt="" className="h-5 w-5" />
             <a href="/home/today">Today</a>
           </li>
