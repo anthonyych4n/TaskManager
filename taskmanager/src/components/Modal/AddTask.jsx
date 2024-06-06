@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { PropTypes } from "prop-types";
+import Add from "/add.png";
 
 function AddTask({ addTask }) {
   const [task, setTask] = useState("");
@@ -18,13 +19,21 @@ function AddTask({ addTask }) {
 
   return (
     <form onSubmit={handleSubmit}>
-      <input
-        type="text"
-        placeholder="Enter task"
-        value={task}
-        onChange={handleInputChange}
-      />
-      <button type="submit">Add Task</button>
+      <div className="flex">
+        <input
+          type="text"
+          placeholder="Enter task"
+          value={task}
+          onChange={handleInputChange}
+        />
+        <button
+          type="submit"
+          className="flex flex-row items-center justify-between gap-2"
+        >
+          <img src={Add} alt="" className="h-8 w-8" />
+          Add Task
+        </button>
+      </div>
     </form>
   );
 }

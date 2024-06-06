@@ -19,7 +19,10 @@ const Sidebar = () => {
         </div>
         <div className="flex justify-end space-x-2 items-center">
           <img src={Bell} alt="" className="h-5 w-5" /> {/* Bell Icon*/}
-          <img src={Minimize} alt="" className="h-5 w-5" />{" "}
+          <button>
+            <img src={Minimize} alt="" className="h-5 w-5" />
+            {}
+          </button>
           {/* Open Close Sidebar Icon*/}
         </div>
       </div>
