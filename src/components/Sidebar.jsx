@@ -10,7 +10,7 @@ import User from "/user.svg";
 
 const Sidebar = () => {
   return (
-    <nav className="bg-gray-50 text-black h-screen w-64 drop-shadow-lg text-base">
+    <nav className="bg-gray-50 text-gray-500 h-screen w-64 drop-shadow-lg text-base ">
       <div className="flex p-4 justify-between">
         <div className="flex justify-start space-x-2 items-center">
           <img src={User} alt="" className="h-5 w-5 text-gray-100" />{" "}
@@ -38,7 +38,9 @@ const Sidebar = () => {
         <ul className="flex px-4 py-2 flex-col w-64">
           <li className="py-1.5 flex space-x-2 text-justify items-center">
             <img src={Search} alt="Search" className="h-5 w-5" />
-            <a href="">Search</a>
+            <button>
+              <a href="">Search</a>
+            </button>
           </li>
 
           <li className="py-1.5 flex space-x-2 text-justify items-center ">

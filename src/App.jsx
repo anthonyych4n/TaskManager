@@ -2,15 +2,15 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import LandingPage from "./pages/LandingPage.jsx";
 import LoginPage from "./pages/LoginPage.jsx";
-import HomePage from "./pages/Home.jsx";
+import HomePage from "./pages/HomePage.jsx";
 import CreateAccount from "./pages/CreateAccountPage.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
-import About from "./pages/About.jsx";
-import Contact from "./pages/Contact.jsx";
-import Today from "./pages/Today.jsx";
-import Inbox from "./pages/Inbox.jsx";
-import Upcoming from "./pages/Upcoming.jsx";
-import Trash from "./pages/Trash.jsx";
+import About from "./pages/AboutPage.jsx";
+import Contact from "./pages/ContactPage.jsx";
+import Today from "./pages/TodayPage.jsx";
+import Inbox from "./pages/InboxPage.jsx";
+import Upcoming from "./pages/UpcomingPage.jsx";
+import Trash from "./pages/TrashPage.jsx";
 import "./index.css";
 
 export function App() {

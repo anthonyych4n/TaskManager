@@ -3,7 +3,7 @@ import AddTask from "../components/Modal/AddTask";
 
 const Home = () => {
   return (
-    <body>
+    <body className="text-gray-500">
       <div className="flex flex-row">
         <div>{<Sidebar />}</div>
 

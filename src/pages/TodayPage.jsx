@@ -1,4 +1,4 @@
-function Today() {
+function TodayPage() {
   return (
     <div>
       <h1>Todays Events</h1>
@@ -7,4 +7,4 @@ function Today() {
   );
 }
 
-export default Today;
+export default TodayPage;
