@@ -1,9 +1,15 @@
+import Sidebar from "../components/Sidebar";
+import AddTask from "../components/Modal/AddTask";
+
 function TodayPage() {
   return (
-    <div>
-      <h1>Todays Events</h1>
-      {/* Add your event components or logic here */}
-    </div>
+    <body className="text-gray-500">
+      <div className="flex flex-row">
+        <div>{<Sidebar />}</div>
+
+        <div>{<AddTask />}</div>
+      </div>
+    </body>
   );
 }
 

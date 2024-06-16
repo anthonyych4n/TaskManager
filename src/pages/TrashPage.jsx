@@ -1,9 +1,14 @@
+import Sidebar from "../components/Sidebar";
+import AddTask from "../components/Modal/AddTask";
 function Trash() {
   return (
-    <div>
-      <h1>Trash Page</h1>
-      {/* Add your trash-related components and logic here */}
-    </div>
+    <body className="text-gray-500">
+      <div className="flex flex-row">
+        <div>{<Sidebar />}</div>
+
+        <div>{<AddTask />}</div>
+      </div>
+    </body>
   );
 }
 

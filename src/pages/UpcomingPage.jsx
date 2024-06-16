@@ -1,9 +1,15 @@
+import Sidebar from "../components/Sidebar";
+import AddTask from "../components/Modal/AddTask";
+
 function Upcoming() {
   return (
-    <div>
-      <h1>Upcoming Events</h1>
-      {/* Add your upcoming events list here */}
-    </div>
+    <body className="text-gray-500">
+      <div className="flex flex-row">
+        <div>{<Sidebar />}</div>
+
+        <div>{<AddTask />}</div>
+      </div>
+    </body>
   );
 }
 
