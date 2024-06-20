@@ -1,9 +1,15 @@
+import Sidebar from "../components/Sidebar";
+import AddTask from "../components/Modal/AddTask";
+
 function Inbox() {
   return (
-    <div>
-      <h1>Inbox Page</h1>
-      {/* Add your inbox content here */}
-    </div>
+    <body className="text-gray-500">
+      <div className="flex flex-row">
+        <div>{<Sidebar />}</div>
+
+        <div>{<AddTask />}</div>
+      </div>
+    </body>
   );
 }
 

@@ -30,7 +30,7 @@ function AddTask({ addTask }) {
           type="submit"
           className="flex flex-row items-center justify-between gap-2"
         >
-          <img src={Add} alt="" className="h-8 w-8" />
+          <img src={Add} alt="" className="h-10 w-10" />
           Add Task
         </button>
       </div>
