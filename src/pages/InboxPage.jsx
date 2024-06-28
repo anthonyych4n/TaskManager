@@ -1,5 +1,4 @@
 import Sidebar from "../components/Sidebar";
-import AddTask from "../components/Modal/AddTask";
 
 function Inbox() {
   return (
@@ -7,7 +6,7 @@ function Inbox() {
       <div className="flex flex-row">
         <div>{<Sidebar />}</div>
 
-        <div>{<AddTask />}</div>
+        {/* Add Inbox stuff in here*/}
       </div>
     </body>
   );
