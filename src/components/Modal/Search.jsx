@@ -8,7 +8,7 @@ const SearchModal = () => {
   return (
     <div>
       <button onClick={handleSearch}>Open Search Modal</button>
-      {/* Add your modal component here */}
+      {/* Add your modal component here  yes papa*/}
     </div>
   );
 };
